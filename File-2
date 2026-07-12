@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Checkout</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>Checkout</h1>
+
+<form id="checkoutForm">
+
+<input placeholder="Name" required>
+
+<input placeholder="Email" required>
+
+<input placeholder="Phone" required>
+
+<button type="submit">
+
+Place Order
+
+</button>
+
+</form>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
