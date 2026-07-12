@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo Mobile Store</title>
+
+    <!-- Paste Google Tag Manager script here later -->
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>Demo Mobile Store</h1>
+</header>
+
+<section class="hero">
+    <h2>Galaxy Ultra X</h2>
+
+    <img src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=500" width="300">
+
+    <h3>₹69,999</h3>
+
+    <p>
+        Flagship Camera • AI Features • 2 Day Battery
+    </p>
+
+    <button id="buyButton">
+        Buy Now
+    </button>
+
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>
