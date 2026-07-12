@@ -1,0 +1,27 @@
+const buy=document.getElementById("buyButton");
+
+if(buy){
+
+buy.addEventListener("click",function(){
+
+console.log("Add To Cart");
+
+window.location.href="checkout.html";
+
+});
+
+}
+
+const form=document.getElementById("checkoutForm");
+
+if(form){
+
+form.addEventListener("submit",function(e){
+
+e.preventDefault();
+
+window.location.href="thankyou.html";
+
+});
+
+}
